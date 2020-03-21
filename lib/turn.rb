@@ -48,9 +48,6 @@ def turn(board)
   else
     turn(board)
   end
-
-
-
 end
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
