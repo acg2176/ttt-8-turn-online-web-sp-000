@@ -38,6 +38,10 @@ def position_taken?(board, index)
   end
 end
 
+def turn(board)
+  puts "Please enter 1-9:"
+end
+
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 index = 0
 valid_move?(board, index)
